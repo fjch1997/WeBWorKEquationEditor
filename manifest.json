@@ -1,0 +1,17 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "WeBWorK Equation Editor",
+  "version": "1.0.0",
+
+  // Optional
+  "author": "Jingchao Feng",
+  "content_scripts": [
+    {
+      "matches": [ "http://*.webwork.maa.org/*", "https://*.webwork.maa.org/*" ],
+      "css": [ "lib/guppy/guppy-default.min.css" ],
+      "js": [ "lib/guppy/guppy.min.js", "contentScript.js" ]
+    }
+  ],
+  "web_accessible_resources": [ "/lib/guppy/*"]
+}
