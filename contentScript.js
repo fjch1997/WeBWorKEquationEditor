@@ -15,6 +15,7 @@ for (var i = 0; i < codeshards.length; i++) {
             }
         }
     });
+    guppyElement.style.display = "inline-block";
     guppyElement.style.width = codeshard.style.width;
     setTimeout(function () { guppy.import_text(codeshard.value) }, 500);
 }
