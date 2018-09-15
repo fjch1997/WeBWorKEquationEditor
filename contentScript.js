@@ -1,5 +1,5 @@
 Guppy.init({
-    "path": chrome.runtime.getURL("lib/guppy"), "symbols": ["https://daniel3735928559.github.io/guppy/sym/symbols.json"], "settings": { "buttons": [] } });
+    "path": chrome.runtime.getURL("lib/guppy"), "symbols": ["https://raw.githubusercontent.com/daniel3735928559/guppy/e5ecc61f41a8682afaf37609354c685bf5a7ebe9/test/static/build/symbols.json"], "settings": { "buttons": [] } });
 // Get all inputs.
 var codeshards = document.getElementsByClassName('codeshard');
 for (var i = 0; i < codeshards.length; i++) {
